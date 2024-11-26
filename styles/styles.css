@@ -507,10 +507,11 @@ footer img {
 }
 
 footer a:hover {
-  img {
-    filter: brightness(100%);
-  }
   color: white;
+}
+
+footer a:hover img {
+  filter: brightness(100%);
 }
 
 .footer-redes-sociales {
