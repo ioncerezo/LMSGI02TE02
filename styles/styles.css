@@ -18,9 +18,20 @@
                             ################################
 */
 
+:root {
+  /* Colores principales */
+  --color-principal: #512012; /* Color para títulos y textos principales */
+  --color-secundario: bisque; /* Color de elementos destacados */
+  --color-fondo: #f0f0f0;    /* Fondo del body */
+
+  /* Fuentes */
+  --fuente-principal: "Libre Baskerville", serif; /* Para títulos */
+  --fuente-secundaria: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* Para texto */
+}
+
 body {
   margin: 0;
-  background-color: #f0f0f0;
+  background-color: var(--color-fondo)
 }
 
 main {
@@ -41,8 +52,8 @@ label,
 button,
 a,
 th {
-  font-family: "Libre Baskerville", serif;
-  color: #512012;
+  font-family: var(--fuente-principal);
+  color: var(--color-principal);
 }
 
 h1 {
@@ -70,7 +81,7 @@ a {
 p,
 a,
 td {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: var(--fuente-secundaria);
   font-size: 1rem;
   line-height: 1.6;
 }
@@ -115,7 +126,7 @@ nav {
   padding: 10px 30px;
   align-items: center;
   justify-content: space-between;
-  background-color: bisque;
+  background-color: var(--color-secundario);
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
@@ -155,7 +166,7 @@ nav section img {
 }
 
 #pagina-principal a {
-  background-color: bisque;
+  background-color: var(--color-secundario);
   font-size: 1rem;
   font-weight: 600;
   padding: 1rem;
@@ -220,7 +231,7 @@ table p {
 }
 
 .card-noticia {
-  background-color: bisque;
+  background-color: var(--color-secundario);
   border-radius: 3px;
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
 }
@@ -243,7 +254,7 @@ table p {
 .card-noticia a {
   padding: 20px 20px 20px 40px;
   margin: 20px;
-  background-color: bisque;
+  background-color: var(--color-secundario);
   border-radius: 3px;
   display: flex;
   gap: 10px;
@@ -287,7 +298,7 @@ table p {
 
 .card-producto {
   margin: 2rem 1rem;
-  background-color: bisque;
+  background-color: var(--color-secundario);
   border-radius: 0.1875rem;
   width: 19rem;
   height: 30rem;
@@ -308,7 +319,7 @@ table p {
 .card-producto a {
   padding: 1rem;
   text-align: center;
-  background-color: bisque;
+  background-color: var(--color-secundario);
   font-weight: 600;
   border-radius: 3px;
   transition: background-color 0.3s ease;
@@ -400,7 +411,7 @@ td {
 .seccion-producto th {
   border: 1px solid rgba(0, 0, 0, 0.473);
   text-align: center;
-  background-color: bisque;
+  background-color: var(--color-secundario);
 }
 
 .seccion-producto a {
@@ -428,7 +439,7 @@ form button {
   width: 100%;
   padding: 10px;
   margin-top: 10px;
-  background-color: bisque;
+  background-color: var(--color-secundario);
   border: 1px solid rgba(0, 0, 0, 0.486);
   font-size: 1rem;
   font-weight: 600;
