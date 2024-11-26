@@ -8,136 +8,191 @@
     Tarea autoevaluativa: https://docs.google.com/document/d/11JveQvr8HGPq1ICYHrsq930XggfOiEMksCTdbK8_ATw/edit?usp=sharing
     Código en vivo: https://ioncerezo.github.io/LMSGI02TE02/
 -->
-    
+
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Inicio - Tu tienda local de café</title>
-    <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+      @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap");
     </style>
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- Barra de navegación -->
     <nav>
-        <section>
-            <a class="bold" href="index.html">Inicio</a>
-            <a href="noticias.html">Noticias</a>
-            <a href="productos.html">Productos</a>
-            <a href="contacto.html">Contacto</a>
-        </section>
-        <img src="images/logo.png"
-            alt="Logo de la tienda de cafe. Vista cenital de una taza de cafe con un grano dentro en un estilo minimalista">
-        <section>
-            <p><img src="images/icono-telefono.png" alt="Icono de un teléfono móvil"> +34 <span class="italic">644 97 18
-                    68</span></p>
-        </section>
+      <section>
+        <a class="bold" href="index.html">Inicio</a>
+        <a href="noticias.html">Noticias</a>
+        <a href="productos.html">Productos</a>
+        <a href="contacto.html">Contacto</a>
+      </section>
+      <img
+        src="images/logo.png"
+        alt="Logo de la tienda de cafe. Vista cenital de una taza de cafe con un grano dentro en un estilo minimalista"
+      />
+      <section>
+        <p>
+          <img
+            src="images/icono-telefono.png"
+            alt="Icono de un teléfono móvil"
+          />
+          +34 <span class="italic">644 97 18 68</span>
+        </p>
+      </section>
     </nav>
 
     <main>
-        <!--Principal-->
+      <!--Principal-->
 
-        <section id="pagina-principal">
-            <!-- Usamos "div" para agrupar el contenido textual y alinearlo con la imagen usando Flexbox -->
-            <div>
-                <h1>Tu ricón de cafe fresco y cercano.</h1>
-                <p class="italic">Explora nuestras mezclas únicas y frescas, cuidadosamente seleccionadas para llevar
-                    hasta tu taza
-                    el sabor auténtico de un buen café local.<br> Porque cada sorbo cuenta.</p>
-                <a href="productos.html">Explora Nuestros productos</a>
-            </div>
-            <img src="images/index/foto-principal.png" class="imagen-grande">
-        </section>
+      <section id="pagina-principal">
+        <!-- Usamos "div" para agrupar el contenido textual y alinearlo con la imagen usando Flexbox -->
+        <div>
+          <h1>Tu ricón de cafe fresco y cercano.</h1>
+          <p class="italic">
+            Explora nuestras mezclas únicas y frescas, cuidadosamente
+            seleccionadas para llevar hasta tu taza el sabor auténtico de un
+            buen café local.<br />
+            Porque cada sorbo cuenta.
+          </p>
+          <a href="productos.html">Explora Nuestros productos</a>
+        </div>
+        <img src="images/index/foto-principal.png" class="imagen-grande" />
+      </section>
 
-
-        <!--Caracteristicas-->
-        <section id="caracteristicas">
-            <img class="imagen-grande" src="images/index/foto-caracteristicas.png"
-                alt="Granos de café con unas hojas verdes">
-            <table>
-                <tbody>
-                    <tr>
-                        <td colspan="2">
-                            <h2>Tu tienda local de café de especialidad</h2>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td colspan="2">
-                            <p>Descubre el sabor y la frescura de nuestro café, seleccionado y tostado con dedicación
-                                para cada amante del café.</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td rowspan="2"><img class="imagen-pequeña" src="images/index/logo-caracteristica-1.png"
-                                alt="Imagen característica 1"></td>
-                        <td>
-                            <h3>Calidad de Origen</h3>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>Seleccionamos nuestros granos de las mejores fincas de café del mundo. Cada lote proviene
-                                de lugares reconocidos por su calidad y prácticas sostenibles, brindándote siempre un
-                                café de origen único y auténtico.</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td rowspan="2"><img class="imagen-pequeña" src="images/index/logo-caracteristica-2.png"
-                                alt="Imagen característica 2"></td>
-                        <td>
-                            <h3>Frescura Garantizada</h3>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>Nuestro café se tuesta semanalmente en pequeñas cantidades para asegurar que cada grano
-                                conserve su aroma y sabor. Así, garantizamos que tu taza de café esté siempre fresca y
-                                llena de matices.</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td rowspan="2"><img class="imagen-pequeña" src="images/index/logo-caracteristica-3.png"
-                                alt="Imagen característica 3"></td>
-                        <td>
-                            <h3>Apoyo a Productores Locales</h3>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>Trabajamos de la mano con pequeños productores que cultivan café de manera ética y
-                                sostenible. Al elegirnos, también estás apoyando a comunidades que se esfuerzan por
-                                preservar la calidad y tradición cafetera.</p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
-
+      <!--Caracteristicas-->
+      <section id="caracteristicas">
+        <img
+          class="imagen-grande"
+          src="images/index/foto-caracteristicas.png"
+          alt="Granos de café con unas hojas verdes"
+        />
+        <table>
+          <tbody>
+            <tr>
+              <td colspan="2">
+                <h2>Tu tienda local de café de especialidad</h2>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <p>
+                  Descubre el sabor y la frescura de nuestro café, seleccionado
+                  y tostado con dedicación para cada amante del café.
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td rowspan="2">
+                <img
+                  class="imagen-pequeña"
+                  src="images/index/logo-caracteristica-1.png"
+                  alt="Imagen característica 1"
+                />
+              </td>
+              <td>
+                <h3>Calidad de Origen</h3>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>
+                  Seleccionamos nuestros granos de las mejores fincas de café
+                  del mundo. Cada lote proviene de lugares reconocidos por su
+                  calidad y prácticas sostenibles, brindándote siempre un café
+                  de origen único y auténtico.
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td rowspan="2">
+                <img
+                  class="imagen-pequeña"
+                  src="images/index/logo-caracteristica-2.png"
+                  alt="Imagen característica 2"
+                />
+              </td>
+              <td>
+                <h3>Frescura Garantizada</h3>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>
+                  Nuestro café se tuesta semanalmente en pequeñas cantidades
+                  para asegurar que cada grano conserve su aroma y sabor. Así,
+                  garantizamos que tu taza de café esté siempre fresca y llena
+                  de matices.
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td rowspan="2">
+                <img
+                  class="imagen-pequeña"
+                  src="images/index/logo-caracteristica-3.png"
+                  alt="Imagen característica 3"
+                />
+              </td>
+              <td>
+                <h3>Apoyo a Productores Locales</h3>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>
+                  Trabajamos de la mano con pequeños productores que cultivan
+                  café de manera ética y sostenible. Al elegirnos, también estás
+                  apoyando a comunidades que se esfuerzan por preservar la
+                  calidad y tradición cafetera.
+                </p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
     </main>
 
     <!--Footer-->
     <footer>
-        <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><span
-                property="dct:title">Página</span> creada por <span property="cc:attributionName">Ion Cerezo
-                Valero -</span> Marcada como <a href="https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1"
-                target="_blank" rel="license noopener noreferrer">CC0 1.0</a></p>
+      <p
+        xmlns:cc="http://creativecommons.org/ns#"
+        xmlns:dct="http://purl.org/dc/terms/"
+      >
+        <span property="dct:title">Página</span> creada por
+        <span property="cc:attributionName">Ion Cerezo Valero -</span> Marcada
+        como
+        <a
+          href="https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1"
+          target="_blank"
+          rel="license noopener noreferrer"
+          >CC0 1.0</a
+        >
+      </p>
 
-        <ul class="footer-redes-sociales">
-            <li><a href="www.twitter.com" target="_blank"><img src="images/logo-x.png" alt="logo de X"> Twitter / X</a>
-            </li>
-            <li><a href="www.instagram.com" target="_blank"><img src="images/logo-instagram.png"
-                        alt="logo de Instagram"> Instagram</a></li>
-            <li><a href="www.tiktok.com" target="_blank"><img src="images/logo-tiktok.png" alt="logo de Tik-tok">
-                    Tik-tok</a></li>
-        </ul>
+      <ul class="footer-redes-sociales">
+        <li>
+          <a href="www.twitter.com" target="_blank"
+            ><img src="images/logo-x.png" alt="logo de X" /> Twitter / X</a
+          >
+        </li>
+        <li>
+          <a href="www.instagram.com" target="_blank"
+            ><img src="images/logo-instagram.png" alt="logo de Instagram" />
+            Instagram</a
+          >
+        </li>
+        <li>
+          <a href="www.tiktok.com" target="_blank"
+            ><img src="images/logo-tiktok.png" alt="logo de Tik-tok" />
+            Tik-tok</a
+          >
+        </li>
+      </ul>
     </footer>
-
-</body>
-
+  </body>
 </html>

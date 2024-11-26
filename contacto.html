@@ -11,101 +11,129 @@
 
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contacto - Tu tienda local de café</title>
-    <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+      @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap");
     </style>
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- Barra de navegación -->
     <nav>
-        <section>
-            <a href="index.html">Inicio</a>
-            <a href="noticias.html">Noticias</a>
-            <a href="productos.html">Productos</a>
-            <a class="bold" href="contacto.html">Contacto</a>
-        </section>
-        <img src="images/logo.png"
-            alt="Logo de la tienda de cafe. Vista cenital de una taza de cafe con un grano dentro en un estilo minimalista">
-        <section>
-            <p><img src="images/icono-telefono.png" alt="Icono de un teléfono móvil"> +34 <span class="italic">644 97 18
-                    68</span></p>
-        </section>
+      <section>
+        <a href="index.html">Inicio</a>
+        <a href="noticias.html">Noticias</a>
+        <a href="productos.html">Productos</a>
+        <a class="bold" href="contacto.html">Contacto</a>
+      </section>
+      <img
+        src="images/logo.png"
+        alt="Logo de la tienda de cafe. Vista cenital de una taza de cafe con un grano dentro en un estilo minimalista"
+      />
+      <section>
+        <p>
+          <img
+            src="images/icono-telefono.png"
+            alt="Icono de un teléfono móvil"
+          />
+          +34 <span class="italic">644 97 18 68</span>
+        </p>
+      </section>
     </nav>
 
     <main>
-        <!-- Contenido de Contacto -->
-        <h1 class="center">Contacta con nosotros</h1>
-        <p class="center italic">Puedes escribirnos mediante el formulario, llamarnos o pasarte por nuestra tienda.
-            Estaremos
-            encantados de
-            responder vuestras dudas y sugerencias.</p>
-        <section id="contenido-contacto">
-            <form>
-                <!--Div para agrupar el campo de nombre y apellido en una sola linea-->
-                <div class="row">
-                    <label for="nombre">Nombre:</label>
-                    <input type="text" id="nombre" name="nombre" required>
+      <!-- Contenido de Contacto -->
+      <h1 class="center">Contacta con nosotros</h1>
+      <p class="center italic">
+        Puedes escribirnos mediante el formulario, llamarnos o pasarte por
+        nuestra tienda. Estaremos encantados de responder vuestras dudas y
+        sugerencias.
+      </p>
+      <section id="contenido-contacto">
+        <form>
+          <!--Div para agrupar el campo de nombre y apellido en una sola linea-->
+          <div class="row">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required />
 
-                    <label for="apellidos">Apellidos:</label>
-                    <input type="text" id="apellidos" name="apellidos" required>
-                </div>
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos" name="apellidos" required />
+          </div>
 
-                <label for="email">E-mail:</label>
-                <input type="email" id="email" name="email" required>
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" required />
 
-                <label for="telefono">Teléfono:</label>
-                <input type="tel" id="telefono" name="telefono">
+          <label for="telefono">Teléfono:</label>
+          <input type="tel" id="telefono" name="telefono" />
 
-                <label for="mensaje">Mensaje:</label>
-                <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
 
-                <button type="submit">Enviar mensaje</button>
-            </form>
-            <aside>
-                <article>
-                    <h3>Llámanos</h3>
-                    <p>Puedes llamar de lunes a sábado de 08:00 a 17:00</p>
+          <button type="submit">Enviar mensaje</button>
+        </form>
+        <aside>
+          <article>
+            <h3>Llámanos</h3>
+            <p>Puedes llamar de lunes a sábado de 08:00 a 17:00</p>
 
-                    <img src="images/icono-telefono.png" alt="Icono de un teléfono móvil">
-                    <p>+34 <span>644 97 18 68</span></p>
+            <img
+              src="images/icono-telefono.png"
+              alt="Icono de un teléfono móvil"
+            />
+            <p>+34 <span>644 97 18 68</span></p>
+          </article>
+          <article>
+            <h3>Visítanos</h3>
+            <p>Encuéntranos en nuestra tienda de Bilbao</p>
 
-                </article>
-                <article>
-                    <h3>Visítanos</h3>
-                    <p>Encuéntranos en nuestra tienda de Bilbao</p>
-
-                    <img src="images/icono-ubicacion.png" alt="Icono de ubicación">
-                    <p>C/ Inventada 123, Bilbao</p>
-
-                </article>
-            </aside>
-        </section>
+            <img src="images/icono-ubicacion.png" alt="Icono de ubicación" />
+            <p>C/ Inventada 123, Bilbao</p>
+          </article>
+        </aside>
+      </section>
     </main>
-    
+
     <!--Footer-->
     <footer>
-        <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><span
-                property="dct:title">Página</span> creada por <span property="cc:attributionName">Ion Cerezo
-                Valero -</span> Marcada como <a href="https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1"
-                target="_blank" rel="license noopener noreferrer">CC0 1.0</a></p>
-                
-        <ul class="footer-redes-sociales">
-            <li><a href="www.twitter.com" target="_blank"><img src="images/logo-x.png" alt="logo de X"> Twitter / X</a>
-            </li>
-            <li><a href="www.instagram.com" target="_blank"><img src="images/logo-instagram.png"
-                        alt="logo de Instagram"> Instagram</a></li>
-            <li><a href="www.tiktok.com" target="_blank"><img src="images/logo-tiktok.png" alt="logo de Tik-tok">
-                    Tik-tok</a></li>
-        </ul>
-    </footer>
-</body>
+      <p
+        xmlns:cc="http://creativecommons.org/ns#"
+        xmlns:dct="http://purl.org/dc/terms/"
+      >
+        <span property="dct:title">Página</span> creada por
+        <span property="cc:attributionName">Ion Cerezo Valero -</span> Marcada
+        como
+        <a
+          href="https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1"
+          target="_blank"
+          rel="license noopener noreferrer"
+          >CC0 1.0</a
+        >
+      </p>
 
+      <ul class="footer-redes-sociales">
+        <li>
+          <a href="www.twitter.com" target="_blank"
+            ><img src="images/logo-x.png" alt="logo de X" /> Twitter / X</a
+          >
+        </li>
+        <li>
+          <a href="www.instagram.com" target="_blank"
+            ><img src="images/logo-instagram.png" alt="logo de Instagram" />
+            Instagram</a
+          >
+        </li>
+        <li>
+          <a href="www.tiktok.com" target="_blank"
+            ><img src="images/logo-tiktok.png" alt="logo de Tik-tok" />
+            Tik-tok</a
+          >
+        </li>
+      </ul>
+    </footer>
+  </body>
 </html>
