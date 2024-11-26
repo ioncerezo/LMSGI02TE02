@@ -56,7 +56,7 @@
         sugerencias.
       </p>
       <section id="contenido-contacto">
-        <form>
+        <form action="mailto:icerezo@birt.eus" method="post">
           <!--Div para agrupar el campo de nombre y apellido en una sola linea-->
           <div class="row">
             <label for="nombre">Nombre:</label>
@@ -74,6 +74,14 @@
 
           <label for="mensaje">Mensaje:</label>
           <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+          <label for="consulta">Tipo de consulta:</label>
+          <select id="consulta" name="consulta" required>
+            <option value="" disabled selected>Selecciona una opción</option>
+            <option value="soporte">Soporte técnico</option>
+            <option value="informacion">Información</option>
+            <option value="reclamo">Reclamo</option>
+          </select>
 
           <button type="submit">Enviar mensaje</button>
         </form>
